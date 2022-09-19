@@ -61,3 +61,4 @@
 - `terraform plan -out out.terraform` : output plan in out.terraform file
 - `terraform apply -out out.terraform` : apply out.terraform to spin up
 - `terraform apply` is shortcut for `terraform plan -out <file>; terraform apply <file>; rm <file>`
+- `terraform get` : get module from github
